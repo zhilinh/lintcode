@@ -4,8 +4,8 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Subsets a = new Subsets();
-		System.out.println(a.subsets(new int[]{0}));
+		FindPeak a = new FindPeak();
+		System.out.println(a.findPeak(new int[]{1, 2, 1, 3, 4, 5, 7, 6}));
 	}
 
 }
