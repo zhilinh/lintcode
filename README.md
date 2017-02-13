@@ -1,2 +1,2 @@
 # lintcode
-Here are my codes for code challenges on lintcode.
+Here are my solutions for code challenges on lintcode.
