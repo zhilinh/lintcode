@@ -4,20 +4,20 @@ public class test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	    SubtreeWithMaximumAverage a = new SubtreeWithMaximumAverage();
-	    TreeNode root = new TreeNode(1);
-	    TreeNode left1 = new TreeNode(-1);
-	    TreeNode left2 = new TreeNode(2);
-	    TreeNode left3 = new TreeNode(1);
-	    TreeNode right1 = new TreeNode(2);
-	    TreeNode right2 = new TreeNode(-4);
-	    TreeNode right3 = new TreeNode(-5);
-	    root.left = left1;
-	    left1.left = left2;
-	    left1.right = left3;
-	    root.right = right1;
-	    right1.left = right2;
-	    right1.right = right3;
-		System.out.println(a.findSubtree2(root).val);
+	    BinaryTreeLevelOrderTraversal a = new BinaryTreeLevelOrderTraversal();
+	    TreeNode root = new TreeNode(10);
+	    TreeNode node1 = new TreeNode(5);
+	    TreeNode node2 = new TreeNode(15);
+	    TreeNode node3 = new TreeNode(6);
+	    TreeNode node4 = new TreeNode(20);
+	    TreeNode node5 = new TreeNode(5);
+	    TreeNode node6 = new TreeNode(6);
+	    TreeNode node7 = new TreeNode(9);
+	    TreeNode node8 = new TreeNode(7);
+	    root.left = node1;
+	    root.right = node2;
+//	    node2.left = node3;
+//	    node2.right = node4;
+		System.out.println(a.levelOrder(root));
 	}
 }
