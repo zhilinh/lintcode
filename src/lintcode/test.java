@@ -12,7 +12,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		DicesSum a = new DicesSum();		
-		System.out.println(a.dicesSum(2));	
+		SearchATwoDMatrixII a = new SearchATwoDMatrixII();
+		int[][] matrix = new int[][] {{1, 3, 5, 7}, {2, 4, 7, 8}, {3, 5, 9, 10}};
+		System.out.println(a.searchMatrix(matrix, 3));	
 	}
 }
