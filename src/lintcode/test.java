@@ -12,8 +12,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		SearchATwoDMatrixII a = new SearchATwoDMatrixII();
-		int[][] matrix = new int[][] {{1, 3, 5, 7}, {2, 4, 7, 8}, {3, 5, 9, 10}};
-		System.out.println(a.searchMatrix(matrix, 3));	
+		ValidPalindrome a = new ValidPalindrome();
+		// int[][] matrix = new int[][] {{1, 3, 5, 7}, {2, 4, 7, 8}, {3, 5, 9, 10}};
+		System.out.println(a.isPalindrome("A man, a plan, a canal: Panama"));	
 	}
 }
