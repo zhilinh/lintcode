@@ -12,8 +12,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		LongestPalindromicSubstring a = new LongestPalindromicSubstring();
+		PowXN a = new PowXN();
 		// int[][] matrix = new int[][] {{1, 3, 5, 7}, {2, 4, 7, 8}, {3, 5, 9, 10}};
-		System.out.println(a.longestPalindrome("ccc"));	
+		System.out.println(a.myPow(2.0, 20));	
 	}
 }
