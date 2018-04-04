@@ -12,8 +12,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		PowXN a = new PowXN();
-		// int[][] matrix = new int[][] {{1, 3, 5, 7}, {2, 4, 7, 8}, {3, 5, 9, 10}};
-		System.out.println(a.myPow(2.0, 20));	
+		Deduplication a = new Deduplication();
+		a.dedup("D:\\eclipse-workspace\\lintcode\\README-Copy.md", "D:\\eclipse-workspace\\lintcode\\test");
+		a.redup("D:\\eclipse-workspace\\lintcode\\test", "D:\\eclipse-workspace\\lintcode\\OUTPUT.md");
 	}
 }
