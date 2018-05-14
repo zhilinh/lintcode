@@ -1,4 +1,4 @@
-package lintcode;
+package systemdesign;
 
 import java.util.HashMap;
 import java.util.LinkedList;
