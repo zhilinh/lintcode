@@ -13,11 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		PreviousPermutation a = new PreviousPermutation();
-		List<Integer> list = new ArrayList<Integer>();
-		list.add(2);
-		list.add(1);
-		list.add(1);
-		System.out.println(a.previousPermuation(list));
+		StringToInteger a = new StringToInteger();
+		System.out.println(a.atoi("    -5211314"));
 	}
 }
