@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		StringToInteger a = new StringToInteger();
-		System.out.println(a.atoi("    -5211314"));
+		NextClosestTime a = new NextClosestTime();
+		System.out.println(a.nextClosestTime("09:59"));
 	}
 }
