@@ -35,7 +35,7 @@ public class NextClosestTime {
     	if (!map.contains(ans[0])) {
     		return time;
     	}
-    	StringBuilder next = new StringBuilder();
+    	StringBuilder next = new StringBuilder();    	
     	next.append(ans[0]);
     	next.append(ans[1]);
     	next.append(':');
