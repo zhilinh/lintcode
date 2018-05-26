@@ -13,7 +13,10 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		NextClosestTime a = new NextClosestTime();
-		System.out.println(a.nextClosestTime("09:59"));
+		ResidualProduct a = new ResidualProduct();
+		int[] ans = a.getProduct(new int[] {10,10,10,10,10,10,10,10,10,10});
+		for (int i = 0; i < ans.length; i++) {
+			System.out.println(ans[i]);
+		}		
 	}
 }
