@@ -13,10 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		ResidualProduct a = new ResidualProduct();
-		int[] ans = a.getProduct(new int[] {10,10,10,10,10,10,10,10,10,10});
-		for (int i = 0; i < ans.length; i++) {
-			System.out.println(ans[i]);
-		}		
+		ValidNumber a = new ValidNumber();
+		System.out.println(a.isNumber("    1  "));
 	}
 }
