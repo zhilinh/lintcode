@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		ValidNumber a = new ValidNumber();
-		System.out.println(a.isNumber("    1  "));
+		EvaluateReversePolishNotation a = new EvaluateReversePolishNotation();
+		System.out.println(a.evalRPN(new String[]{"3", "-4", "+"}));
 	}
 }
