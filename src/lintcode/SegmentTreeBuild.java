@@ -1,6 +1,17 @@
 package lintcode;
 
 public class SegmentTreeBuild {
+	
+	public class SegmentTreeNode {
+		 public int start, end;
+		 public SegmentTreeNode left, right;
+		 public SegmentTreeNode(int start, int end) {
+			 this.start = start;
+			 this.end = end;
+		     this.left = this.right = null;
+		 }
+	}
+	
 	/*
      * @param start: start value.
      * @param end: end value.

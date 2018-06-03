@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class test {
 
 	public static void main(String[] args) {
-		EvaluateReversePolishNotation a = new EvaluateReversePolishNotation();
-		System.out.println(a.evalRPN(new String[]{"3", "-4", "+"}));
+		LongestAbsoluteFilePath a = new LongestAbsoluteFilePath();
+		System.out.println(a.lengthLongestPath("dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"));
 	}
 }
