@@ -3,7 +3,7 @@ package lintcode;
 import java.util.Arrays;
 import java.util.List;
 
-public class BinaryTreeSerialization {
+public class SerializeAndDeserializeBinaryTree {
     /**
      * Definition of TreeNode:
      * public class TreeNode {
