@@ -23,7 +23,7 @@ public class FindTheCelebrity {
     			return -1;
     		}
     		// IMPORTANT!
-    		if (curr != i && !knows(i, curr)) {
+    		if (curr != i && (!knows(i, curr) || knows(curr, i))) {
     			return -1;
     		}
     	}
